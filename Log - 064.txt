@@ -1,0 +1,5 @@
+Start:2018-10-31 18:21:31.136528
+Round: 64
+Heuristics:{30: [1, -2, -2, 2], 40: [1, -2, 2, 2], 100: [1, -4, -1, -4]}
+Duration:0:18:38.936891Your agent won 92.0% of matches against Minimax Agent
+
