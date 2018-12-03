@@ -156,6 +156,6 @@ radar.plot(baseline_performer_numbers,
 
 radar.ax.legend(bbox_to_anchor=(1.1, 1.05))
 
-plot.savefig(sys.argv[0].replace('.py',' - Radar - 1.png'))
+plot.savefig('Radar Chart.png'))
 
 plot.show()
