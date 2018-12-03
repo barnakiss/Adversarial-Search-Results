@@ -76,7 +76,7 @@ for filename in glob.glob('Log*.txt'):
 
 #-------------------------------------------------------------------------------
 
-plot = plt.figure(figsize=(10, 9))
+plot = plt.figure(figsize=(11, 10))
 plot.subplots_adjust(left=0.2, bottom=0.2, right=0.99, top=0.92, wspace=0.05, hspace=0.30)
 
 titles = ['Opening', 'Opening Own Lib.', 'Opening Opp. Lib.', 'Opening Opp. Dist.', 'Opening Center Dist.',
@@ -156,6 +156,6 @@ radar.plot(baseline_performer_numbers,
 
 radar.ax.legend(bbox_to_anchor=(1.1, 1.05))
 
-plot.savefig('Radar Chart.png'))
+plot.savefig('Radar Chart.png')
 
 plot.show()
