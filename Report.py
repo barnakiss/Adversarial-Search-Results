@@ -11,7 +11,6 @@ import numpy as np
 # import matplotlib
 # matplotlib.style.use('dark_background')  # interesting: 'bmh' / 'ggplot' / 'dark_background'
 
-
 class Radar(object):
     def __init__(self, figure, title, labels, rect=None):
         if rect is None:
